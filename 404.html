@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script type="text/javascript">
+      // Redireciona para a versão com hash
+      var redirectTo = location.pathname.replace(/\/[^/]*$/, '') + '/#' + location.pathname + location.search + location.hash;
+      location.replace(redirectTo);
+    </script>
+  </head>
+  <body>
+    <p>Redirecionando...</p>
+  </body>
+</html>
