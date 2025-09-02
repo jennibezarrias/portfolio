@@ -3,17 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import caseiro from "../../Assets/Projects/RodrigoCaseiro.png";
-<<<<<<< HEAD
 import franpress from "../../Assets/Projects/franpresscopy.png";
 import doce from "../../Assets/Projects/Doce.png";
 import ocean from "../../Assets/Projects/ocean.png";
 import edson from "../../Assets/Projects/edson.png";
-=======
-
-import franpress from "../../Assets/Projects/franpresscopy.png";
-import doce from "../../Assets/Projects/Doce.png";
-import ocean from "../../Assets/Projects/ocean.png";
->>>>>>> c06a575c0d342798006031c11059eeac6883a839
 
 function Projects() {
   return (
@@ -68,7 +61,6 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-<<<<<<< HEAD
               imgPath={edson}
               isBlog={false}
               title="Landing Page Edson Júnior - Comex Sênior"
@@ -76,13 +68,6 @@ function Projects() {
               composto por três páginas; Home, Sobre e a Formação.
               O projeto foi hospedado na Vercel para facilitar o acesso e compartilhamento"
               demoLink="https://portfolioedson.vercel.app/index.html"
-=======
-              imgPath={caseiro}
-              isBlog={false}
-              title="Landing Page Edson Júnior - Comex Sênior"
-              description="."
-              demoLink=""
->>>>>>> c06a575c0d342798006031c11059eeac6883a839
             />
           </Col>
 
